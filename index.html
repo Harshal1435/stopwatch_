@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Our Stopwatch Title  -->
+    <title>Stopwatch - Mohit Goyal</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+
+    <!-- Internal css -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Div of Watch -->
+    <div class="my-stopwatch">
+      <!-- This is a Title of My Stopwatch,(I have Highlighted my Name in Stopwatch) -->
+      <h1><span class="yellow">Harshal's</span> STOPWATCH</h1>
+
+      <!-- A Circle in which Time is Shown -->
+      <div class="circle-time">
+        <span class="time" id="display">00:00:00</span>
+      </div>
+
+      <!-- Control Button Link - Play/Pause/Reset  -->
+      <div class="controls">
+        <button class="buttonPlay">
+          <i class="fa-solid fa-play" id="playBtn"></i>
+          <i id="pauseBtn" class="fa-regular fa-pause"></i>
+        </button>
+        <button class="buttonReset">
+          <i id="resetButton" class="fa-regular fa-pause"></i>
+        </button>
+      </div>
+    </div>
+    <!-- External JavaScript -->
+    <script src="./index.js"></script>
+  </body>
+</html>
